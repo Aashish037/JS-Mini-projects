@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    /* background-color: color-mix(in srgb-linear, yellow 45%, lightseagreen 55%); */
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(72, 187, 225);
+}
+
+h1{
+    font-size: 3vw;
+    font-weight: 600;
+    margin-bottom: 2vw;
+}
+
+#timedisplay{
+    color: whitesmoke;
+    background-color: rgb(63, 107, 20);
+    padding: 1vw 1.5vw;
+    border-radius: 1vw;
+}
+
+
+.timebtn{
+    height: 10%;
+    padding: 1.5vw 2vw;
+    border-radius: 1vw;
+    cursor: pointer;
+    /* margin-top: vw; */
+}
+
+.btn{
+    padding: 1vw 1.5vw;
+    font-size: 1vw;
+    font-weight: bold;
+    background-color: hsl(0, 18%, 82%);
+    color: rgb(63, 107, 20);
+    border: none;
+    border-radius: 2vw;
+}
+
+.btn:hover{
+    background-color: hsl(0, 6%, 55%);
+    cursor: pointer;
+    color: rgb(41, 72, 9);
+}
