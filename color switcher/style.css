@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* margin: 0;*/
+    height: 100%;
+    width: 100%;
+}
+
+.canvas {
+    margin:  150px auto;
+    width: 80%;
+    max-width:540px;
+    padding: 20px;
+    text-align: center;
+    background:white;
+}
+
+h1{
+    margin-bottom:60px;
+    font-family: sans-serif;
+    
+}
+
+span{
+    display: block;
+}
+
+.button{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+
+
+
+#blue{
+    background: blue;
+}
+#yellow{
+    background: yellow;
+}
+ #red{
+    background: rgb(247, 42, 25);
+} 
+#green{
+    background: rgb(19, 191, 15);
+}
